@@ -109,9 +109,9 @@ const ContactSection = () => {
           >
             <Card className="rounded-xl p-6 bg-secondary/50">
               {[
-                { icon: <Phone className="w-5 h-5" />, title: "Phone", lines: ["+91 98765 43210", "+91 98765 43211"] },
-                { icon: <Mail className="w-5 h-5" />, title: "Email", lines: ["info@lalityatech.com", "projects@lalityatech.com"] },
-                { icon: <MapPin className="w-5 h-5" />, title: "Location", lines: ["Hyderabad, Telangana", "India"] },
+                { icon: <Phone className="w-5 h-5" />, title: "Phone", lines: ["+91 9063913262", "+91 9963282240"] },
+                { icon: <Mail className="w-5 h-5" />, title: "Email", lines: ["lalityatechnologies@gmail.com"] },
+                { icon: <MapPin className="w-5 h-5" />, title: "Location", lines: ["Gandhi Maisamma & Kranthi Colony", "Hyderabad - 500092, India"] },
               ].map((item) => (
                 <div key={item.title} className="flex items-start gap-4 mb-6 last:mb-0">
                   <div className="bg-primary text-primary-foreground p-3 rounded-lg shrink-0">{item.icon}</div>
